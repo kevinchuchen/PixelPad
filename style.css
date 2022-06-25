@@ -1,0 +1,63 @@
+:root {
+	--black: #000000;
+	--darkgray: #181818;
+	--cyan: #2CCCC3;
+	--yellow: #FACD3D;
+	--purple: #5626C4;
+	--red: #E60576;
+}
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Righteous', cursive;
+*/
+body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--black);
+	font-family: 'Press Start 2P', cursive;
+	color: var(--cyan);
+	margin:0;
+}
+.header, .content, .footer {
+	padding-left: 5rem;
+	padding-right:5rem;
+}
+.header {	
+	text-align: center;
+	font-size: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	background-color: var(--darkBlue);
+}
+.content {
+	display: flex;
+}
+.sketchpad {
+	display:flex;
+	border: 2px solid white;
+	width: 600px;
+	height: 600px;
+	padding: 0;
+	margin: 0;
+}
+.col {
+	display:flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+}
+.row {
+
+    display:flex;
+    border: 1px solid purple;
+}
+
+.footer {
+	text-align: center;
+	padding: 0.6rem;
+	color: white;
+	margin: 0;
+}
